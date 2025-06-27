@@ -1,0 +1,46 @@
+{
+    "_id": {
+        "$oid": "64b223c4e1b0f72a8b5d3c4g"
+    },
+    "songId": "SONG12346",
+    "title": "Blinding Lights",
+    "releaseDate": {
+        "$date": "2019-11-29T00:00:00Z"
+    },
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "genres": [
+        "Synthwave",
+        "Pop",
+        "R&B"
+    ],
+    "duration": "00:03:22",
+    "spotifyLink": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
+    "poster": "https://i.imgur.com/blinding_lights_poster.jpg",
+    "backdrops": [
+        "https://i.imgur.com/GkD+r2Ks.jpg",
+        "https://i.imgur.com/4YrTX3j.jpg",
+        "https://i.imgur.com/J7FPfZp.jpg"
+    ],
+    "reviewIds": [
+        {
+            "$oid": "64b225f4e1b0f72a8b5d3f3h"
+        },
+        {
+            "$oid": "64b226g4e1b0f72a8b5d3g4i"
+        }
+    ],
+    "lyrics": "I've been tryna call...",
+    "streamingLinks": {
+        "spotify": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
+        "appleMusic": "https://music.apple.com/us/album/blinding-lights/1488406718",
+        "youtube": "https://www.youtube.com/watch?v=4NRXx6U8ABQ",
+        "soundCloud": "https://soundcloud.com/theweeknd/blinding-lights"
+    },
+    "createdAt": {
+        "$date": "2024-11-28T12:00:00Z"
+    },
+    "updatedAt": {
+        "$date": "2024-11-28T12:00:00Z"
+    }
+}
