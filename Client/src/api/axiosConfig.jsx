@@ -1,10 +1,13 @@
 import axios from "axios";
 
+const baseURL =
+  import.meta.env.MODE === "development"
+    ? "http://localhost:8000"
+    : "https://your-backend.onrender.com"; // 👈 replace with actual URL
+
 const api = axios.create({
-  baseURL:  "https://eb7d-2403-7340-2-d660-6805-6de2-9560-848a.ngrok-free.app",
-  headers: {
-    "ngrok-skip-browser-warning": "true", // Optional to bypass certain ngrok headers
-  },
+  baseURL,
 });
+
 
 export default api;
