@@ -1,0 +1,92 @@
+[
+  {
+    "imdbId": "tt10366206",
+    "title": "John Wick: Chapter 4",
+    "releaseDate": "2023-03-22",
+    "trailerLink": "https://www.youtube.com/watch?v=qEVUtrk8_B4",
+    "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "overview": "John Wick takes on the High Table across New York, Osaka, Berlin and Paris in a final bid for his freedom.",
+    "genres": ["Action", "Thriller", "Crime"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/h8gHn0OzBoaefsYseUByqsmEDMY.jpg"]
+  },
+  {
+    "imdbId": "tt6718170",
+    "title": "The Super Mario Bros. Movie",
+    "releaseDate": "2023-04-05",
+    "trailerLink": "https://www.youtube.com/watch?v=TnGl01FkMMo",
+    "poster": "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "overview": "A Brooklyn plumber is pulled into the Mushroom Kingdom and races to rescue his brother from Bowser.",
+    "genres": ["Animation", "Adventure", "Family", "Fantasy", "Comedy"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg"]
+  },
+  {
+    "imdbId": "tt17663992",
+    "title": "Scream VI",
+    "releaseDate": "2023-03-08",
+    "trailerLink": "https://www.youtube.com/watch?v=h74AXqw4Opc",
+    "poster": "https://image.tmdb.org/t/p/w500/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
+    "overview": "The survivors of the Woodsboro killings move to New York City, and Ghostface follows them there.",
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/44immBwzhDVyjn87b3x3l9mlhAD.jpg"]
+  },
+  {
+    "imdbId": "tt11145118",
+    "title": "Creed III",
+    "releaseDate": "2023-03-01",
+    "trailerLink": "https://www.youtube.com/watch?v=AHmCH7iB_IM",
+    "poster": "https://image.tmdb.org/t/p/w500/cvsXj3I9Q2iyyIo95AecSd1tad7.jpg",
+    "overview": "Adonis Creed faces a childhood friend and former boxing prodigy who wants his shot at the title.",
+    "genres": ["Drama", "Action"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/5i6SjyDbDWqyun8klUuCxrlFbyw.jpg"]
+  },
+  {
+    "imdbId": "tt10954600",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "releaseDate": "2023-02-15",
+    "trailerLink": "https://www.youtube.com/watch?v=ZlNFpri-Y40",
+    "poster": "https://image.tmdb.org/t/p/w500/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg",
+    "overview": "Scott Lang and Hope van Dyne are trapped in the Quantum Realm and confront Kang the Conqueror.",
+    "genres": ["Action", "Adventure", "Science Fiction"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg"]
+  },
+  {
+    "imdbId": "tt8760708",
+    "title": "M3GAN",
+    "releaseDate": "2022-12-28",
+    "trailerLink": "https://www.youtube.com/watch?v=BRb4U99OU80",
+    "poster": "https://image.tmdb.org/t/p/w500/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+    "overview": "A roboticist builds a lifelike AI doll to care for her orphaned niece, and it becomes far too protective.",
+    "genres": ["Science Fiction", "Horror"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/q2fY4kMXKoGv4CQf310MCxpXlRI.jpg"]
+  },
+  {
+    "imdbId": "tt3915174",
+    "title": "Puss in Boots: The Last Wish",
+    "releaseDate": "2022-12-21",
+    "trailerLink": "https://www.youtube.com/watch?v=tHb7WlgyaUc",
+    "poster": "https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg",
+    "overview": "Down to the last of his nine lives, Puss in Boots sets out to find the mythical Last Wish.",
+    "genres": ["Animation", "Action", "Adventure", "Comedy", "Family"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/r9PkFnRUIthgBp2JZZzD380MWZy.jpg"]
+  },
+  {
+    "imdbId": "tt1630029",
+    "title": "Avatar: The Way of Water",
+    "releaseDate": "2022-12-14",
+    "trailerLink": "https://www.youtube.com/watch?v=d9MyW72ELq0",
+    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "overview": "Jake Sully and Neytiri's family seek refuge with the ocean clans of Pandora when an old threat returns.",
+    "genres": ["Science Fiction", "Adventure", "Action"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/198vrF8k7mfQ4FjDJsBmdQcaiyq.jpg"]
+  },
+  {
+    "imdbId": "tt9114286",
+    "title": "Black Panther: Wakanda Forever",
+    "releaseDate": "2022-11-09",
+    "trailerLink": "https://www.youtube.com/watch?v=RlOB3UALvrQ",
+    "poster": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+    "overview": "Wakanda mourns its king and must defend itself against a hidden undersea nation.",
+    "genres": ["Action", "Adventure", "Science Fiction"],
+    "backdrops": ["https://image.tmdb.org/t/p/w1280/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg"]
+  }
+]

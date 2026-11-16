@@ -1,11 +1,18 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom'
+import Header from './Header'
+import Footer from './Footer'
+import StatusBanner from './StatusBanner'
 
-const Layout = () => {
+export default function Layout() {
   return (
-    <main>
-      <Outlet />
-    </main>
-  );
-};
-
-export default Layout;
+    <div className="app-shell">
+      <a className="skip-link" href="#main">Skip to content</a>
+      <Header />
+      <StatusBanner />
+      <main id="main" className="app-main" tabIndex={-1}>
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  )
+}

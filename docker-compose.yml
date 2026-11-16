@@ -1,0 +1,47 @@
+# Local full stack: docker compose up --build  ->  http://localhost:8080
+services:
+  mongo:
+    image: mongo:8
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    # Not published to the host: only reachable on the internal network.
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Server/Dockerfile
+    restart: unless-stopped
+    environment:
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_DATABASE: movie-api-db
+      CORS_ALLOWED_ORIGINS: http://localhost:8080
+      SEED_DATA: "true"
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      mongo:
+        condition: service_healthy
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+
+  web:
+    build:
+      context: Client
+      args:
+        VITE_API_URL: http://localhost:8000
+    restart: unless-stopped
+    environment:
+      API_ORIGIN: http://localhost:8000
+    ports:
+      - "127.0.0.1:8080:8080"
+    security_opt: ["no-new-privileges:true"]
+
+volumes:
+  mongo-data:
