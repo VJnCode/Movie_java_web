@@ -1,0 +1,17 @@
+# Secrets - never commit
+.env
+!Client/.env
+.env.local
+.env.*.local
+Server/.env
+*.pem
+*.key
+
+# Build output / deps
+node_modules/
+dist/
+target/
+
+# IDE
+.idea/workspace.xml
+.idea/shelf/
