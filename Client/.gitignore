@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local env overrides (may contain private values)
+.env.local
+.env.*.local
